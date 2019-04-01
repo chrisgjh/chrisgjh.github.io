@@ -25,6 +25,8 @@ body {
     }
 }
 
+/*--------------------------- below is social media style ------------------------------*/
+
 .navbar {
     text-align: center;
 }
@@ -36,6 +38,18 @@ body {
 }
 
 .linkedin {
+    image-rendering: auto;
+    width:60px;
+    height:60px;
+}
+
+.github {
+    image-rendering: auto;
+    width:60px;
+    height:60px;
+}
+
+.hackerrank {
     image-rendering: auto;
     width:60px;
     height:60px;
@@ -57,10 +71,28 @@ body {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .github {
+        image-rendering: auto;
+        width:30px;
+        height:30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hackerrank {
+        image-rendering: auto;
+        width:30px;
+        height:30px;
+    }
+}
+
 .padding {
     padding-left: 3%;
     padding-right: 3%;
 }
+
+/*--------------------------- below is home page pic style ------------------------------*/
 
 .socialmediahurts {
     image-rendering: auto;
@@ -68,10 +100,25 @@ body {
     padding-top: 5%;
 }
 
+.homerinternet {
+    image-rendering: auto;
+    padding-left: 15%;
+}
+
 @media only screen and (max-width: 768px) {
     .socialmediahurts {
         image-rendering: auto;
-        padding-left: 14%;
+        padding-left: 17%;
+        padding-top: 10%;
+        width: 65%;
+        height: 65%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .homerinternet {
+        image-rendering: auto;
+        padding-left: 17%;
         padding-top: 10%;
         width: 65%;
         height: 65%;
